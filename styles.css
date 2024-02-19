@@ -1,0 +1,106 @@
+
+/*align the text in center and change the background color */
+* {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+
+/*change the font, font size and color of the font, change the background color and size */
+h1 {
+  font-family: "Corinthia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    color:  rgb(249, 252, 253);
+    width: 100%;
+    height: 100px;
+    background: rgba(12, 128, 128, 0.862);
+    margin-bottom: 0;
+    margin-top: -10px
+}
+  
+
+/*change the font, font size and color of the font */
+ .blessed , .veryBlessed, .bless, .blessings , .bestDay, .blessing1, .blessing2 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    color:  rgb(2, 173, 196);
+  }
+
+  /*change the font, font size and color of the font */
+  .resist {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(219, 206, 92);
+  }
+
+  /*change the font, font size and color of the font */
+  .trouble {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+/*change the font, font size and color of the font */
+.problems, .worst {
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3a3a37;
+}
+
+/*change the font, font size and color of the font */
+.heart {
+  font-family: "Corinthia", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: #bd202a;
+}
+
+/*change the font, font size and color of the font */
+.everyday {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: bold;
+  color:rgb(219, 206, 92);
+}
+
+/*change the font, font size and color of the font, change the background color */
+footer {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(11, 13, 13);
+  background: rgba(12, 128, 128, 0.862);
+}
+
+   /*create the responsive design for smaller screens, so when the width is 768px, the content will be displayed
+   in a responsive way */
+   @media screen and (max-width: 768px) {
+
+    /*change the width and height */
+        h1 {
+        max-width: 100%;
+        height: 10%;             
+
+    }
+  }
